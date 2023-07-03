@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Archivo Black';
+    src: url('../../public/Archivo/static/Archivo-Black.ttf');
+  }
+
+
+  .visit-nav {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    z-index: 998;
+    display:inline;
+  }
+  
+  .visit-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .visit-nav ul li {
+    text-decoration: underline;
+    font-size: 1.3vw;
+    padding-bottom: 0.2vw;
+  }
+  
+  .visit-nav .jump-to {
+    text-align: right;
+    color: #9f0000;
+    font-family: 'Archivo Black';
+  }
+  

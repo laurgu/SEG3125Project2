@@ -1,0 +1,35 @@
+.contact-spacing{
+    margin-bottom:2vw;
+}
+
+.contact-icon{
+    height:3vw;
+    width:3vw;
+    display: inline;
+    margin-bottom: 1vw;
+    margin-right:1vw;
+}
+
+.inline{
+    display:inline;
+}
+
+.contact-img{
+    width:45vw;
+    justify-content: right;
+    height:20vw;
+}
+
+.add-space{
+    margin-left:3vw;
+}
+
+.top-mar{
+    margin-top:2vw;
+}
+
+.comment-box{
+    height:15vw;
+    width: 40vw;
+    margin-top:2vw;
+}

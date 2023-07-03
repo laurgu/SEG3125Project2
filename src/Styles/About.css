@@ -1,0 +1,10 @@
+.staff-cards-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.about-image{
+    height: 50vw;
+    width:96vw;
+}

@@ -1,0 +1,38 @@
+.dontate-page{
+    background-color: #e5e2de;
+    color:#1e1c1c;
+}
+
+.donate-input{
+    background-color: #e5e2de;
+    margin: 0 0 1vw 1vw;
+}
+
+.donate-content{
+    padding-left:2vw;
+    padding-right:2vw;
+    justify-content: right;
+    text-align: right;
+}
+
+.donate-button{
+    font-size:1.7vw;
+    background-color: #e5e2de;
+    color:#9f0000;
+    border:0.2vw solid #9f0000;
+}
+
+.donate-page{
+    background-color:#e5e2de;
+    color:#1e1c1c
+}
+
+.donate-img{
+    height:50vw;
+    width:60vw;
+
+}
+
+.left-align{
+    text-align: left;
+}

@@ -1,0 +1,26 @@
+.card.staff {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border: 0.2vw solid #9f0000; /* Red border */
+  padding: 2vw;
+  margin-bottom: 2vw;
+  width:40vw;
+}
+
+.profile-pic {
+  align-self: center; /* Vertically center the image within the grid cell */
+  margin-right: 2vw; /* Adjust the margin to create space between the image and text */
+}
+
+.profile-pic img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

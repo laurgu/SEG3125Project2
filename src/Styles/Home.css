@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../public/Archivo/Archivo-VariableFont_wdth,wght.ttf');
+  }
+
+  @font-face {
+    font-family: 'Archivo Black';
+    src: url('../../public/Archivo/static/Archivo-Black.ttf');
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .accent{
+    border-color: #9f0000;
+    color:#9f0000;
+  }
+
+ .img-container-home{
+  position: relative;
+  display: inline-block;
+}
+
+.home-img {
+  width: 95vw;
+  height: 60vw;
+}
+
+.home-img-border {
+  position: absolute;
+  border: 0.2vw solid #9f0000;
+  width: 95vw;
+  height: 60vw;
+  top:1vw;
+  left:1vw;
+}
+
+
+.learn-more{
+  margin-right:1vw;
+}
+
+.button-container{
+  margin-top: 3vw;
+}

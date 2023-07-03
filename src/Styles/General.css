@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../public/Archivo/Archivo-VariableFont_wdth,wght.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Archivo Black';
+    src: url('../../public/Archivo/static/Archivo-Black.ttf');
+  }
+
+  html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+  .white {
+    color: #e5e2de;
+  }
+  
+  .black {
+    color: #1e1c1c;
+  }
+  
+  .red {
+    color: #9f0000;
+  }
+  
+  .page-setup {
+    background-color: #e5e2de;
+    color: #1e1c1c;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+  }
+  .page-content{
+    padding:0 2vw 0 2vw;
+  }
+
+  hr {
+    border-top: 0.1vw solid #1e1c1c;
+  }
+
+  h1{
+    margin:0;
+    font-size: q0vw;
+    font-family: 'Archivo';
+    text-align: left;
+    padding-top:15vw;
+  }
+
+  .title{
+    margin:0;
+    font-size: 5vw;
+    font-family: 'Archivo';
+    font-weight: bold;
+    text-align: left;
+    padding-top:15vw;
+  }
+
+  h3{
+    font-family: 'Archivo Black';
+    font-size: 1.6vw;
+    margin-bottom: 0;
+  }
+
+  h4{
+    font-weight: bold;
+  }
+
+  .right-align{
+    text-align: right;
+  }
+
+  
+.left-align{
+  text-align: left;
+}
+
+  .remove-space{
+    margin:0;
+    padding:0;
+  }
+
+  .red-button{
+    background-color: #e5e2de;
+    color: #9f0000;
+    border:0.2vw solid #9f0000;
+    font-family: 'Archivo Black';
+    font-size:2vw;
+  }
+
+  .button {
+    border: 0.2vw solid #1e1c1c;
+    background-color: #e5e2de;
+    font-family: 'Archivo Black';
+    font-size: 2vw;
+  }
+
+  .right-position{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+    .standard{
+      margin:0;
+      background-color: #e5e2de;
+      color:#1e1c1c;
+    }
+
+  .inverse{
+    background-color: #1e1c1c;
+    color:#e5e2de;
+    margin:0;
+  }
