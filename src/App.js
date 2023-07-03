@@ -15,7 +15,7 @@ import Contact from './Components/Contact'
 
 function App() {
   return ( 
-  <Router>
+    <Router basename="/SEG3125Project2">
     <Routes>
       <Route path ="/" element={<Home />} />
       <Route path ="/visit" element={<Visit />} />
