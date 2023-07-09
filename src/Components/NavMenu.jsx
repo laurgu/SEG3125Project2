@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../Styles/NavMenu.css';
 
 function NavMenu() {
@@ -17,26 +18,26 @@ function NavMenu() {
       </button>
       {isDropdownOpen && (
         <div className="dropdown-menu" style={{ display: isDropdownOpen ? 'flex' : 'none' }}>
-          <div className = 'background-color'>
+          <div className="background-color">
             <ul>
               <li><button className="close-button" onClick={toggleDropdown}>X</button></li>
-              <li className="nav-item"><a href="/">HOME</a></li>
+              <li className="nav-item"><Link to="/">HOME</Link></li>
               <li><hr /></li>
-              <li className="nav-item"><a href="/visit">VISIT</a></li>
+              <li className="nav-item"><Link to="/visit">VISIT</Link></li>
               <li><hr /></li>
-              <li className="nav-item"><a href="/tickets">TICKETS</a></li>
+              <li className="nav-item"><Link to="/tickets">TICKETS</Link></li>
               <li><hr /></li>
-              <li className='subHeading'><a href="/exhibitions">EXHIBITIONS</a></li>
+              <li className='subHeading'><Link to="/exhibitions">EXHIBITIONS</Link></li>
               <li><hr /></li>
-              <li className='subHeading'><a href="/collection">COLLECTION</a></li>
+              <li className='subHeading'><Link to="/collection">COLLECTION</Link></li>
               <li><hr /></li>
-              <li className="nav-item"><a href="/about">ABOUT</a></li>
+              <li className="nav-item"><Link to="/about">ABOUT</Link></li>
               <li><hr /></li>
-              <li className="nav-item"><a href="/contact">CONTACT</a></li>
+              <li className="nav-item"><Link to="/contact">CONTACT</Link></li>
               <li><hr /></li>
-              <li><a className="red" href="/donate">DONATE</a></li>
+              <li><Link className="red" to="/donate">DONATE</Link></li>
             </ul>
-            </div>
+          </div>
         </div>
       )}
     </div>

@@ -1,25 +1,2 @@
-.img-container-exhibit {
-    position: relative;
-    display: inline-block;
-    margin-right: 1vw; /* Adjust the margin as needed */
-    margin-bottom: 1vw; /* Adjust the margin as needed */
-  }
-  
-  .exhibit-pic {
-    height: 50vw;
-    width: 90vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .exhibit-img-border {
-    position: absolute;
-    border: 0.2vw solid #9f0000;
-    height: 50vw;
-    width: 90vw;
-    top: 1vw; /* Adjust the top position as needed */
-    left: 1vw; /* Adjust the left position as needed */
-    box-sizing: border-box;
-  }
+
   

@@ -1,6 +1,5 @@
 
 import{
-  BrowserRouter as Router,
   Routes,
   Route
 }from 'react-router-dom'
@@ -15,8 +14,8 @@ import Contact from './Components/Contact'
 
 function App() {
   return ( 
-    <Router basename="/SEG3125Project2">
-    <Routes>
+  
+    <Routes basename = {process.env.PUBLIC_URL}>
       <Route path ="/" element={<Home />} />
       <Route path ="/visit" element={<Visit />} />
       <Route path ="/exhibitions" element={<Exhibitions />} />
@@ -26,7 +25,7 @@ function App() {
       <Route path = '/tickets' element ={<Tickets />}/>
       <Route path = '/contact' element ={<Contact />}/>
     </Routes>
-  </Router>
+
   );
 }
 
