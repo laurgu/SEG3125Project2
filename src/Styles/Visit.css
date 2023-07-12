@@ -44,3 +44,8 @@
   position: sticky;
   top: 20vw;
 }
+
+.map{
+  height: 50vw;
+  width: 60vw;
+}

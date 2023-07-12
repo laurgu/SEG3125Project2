@@ -22,17 +22,18 @@
  .img-container-home{
   position: relative;
   display: inline-block;
+  margin-top:3vw;
 }
 
 .home-img {
-  width: 95vw;
+  width: 93vw;
   height: 60vw;
 }
 
 .home-img-border {
   position: absolute;
   border: 0.2vw solid #9f0000;
-  width: 95vw;
+  width: 93vw;
   height: 60vw;
   top:1vw;
   left:1vw;
@@ -45,4 +46,35 @@
 
 .button-container{
   margin-top: 3vw;
+
 }
+
+.slide-indicators {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.slide-indicator {
+
+  width: 1vw;
+  height: 1vw;
+  background-color: #999;
+  border-radius: 50%;
+  margin: 0 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom:3vw;
+}
+
+.slide-indicator.active {
+  background-color: #333;
+}
+
+.home-button{
+  text-decoration: none;
+  color:inherit;
+  margin-right:1vw;
+}
+

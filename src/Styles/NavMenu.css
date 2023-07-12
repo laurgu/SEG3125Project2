@@ -21,11 +21,15 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
   right: 1vw; /* Adjust the right property */
   background-color: #e5e2de;
+
+  position: fixed;
+  top: 0;
 }
+
 
 .dropdown-menu {
   position: fixed;

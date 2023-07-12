@@ -29,6 +29,8 @@ function NavMenu() {
               <li><hr /></li>
               <li className='subHeading'><Link to="/exhibitions">EXHIBITIONS</Link></li>
               <li><hr /></li>
+              <li className='subHeading'><Link to="/events">EVENTS</Link></li>
+              <li><hr /></li>
               <li className='subHeading'><Link to="/collection">COLLECTION</Link></li>
               <li><hr /></li>
               <li className="nav-item"><Link to="/about">ABOUT</Link></li>

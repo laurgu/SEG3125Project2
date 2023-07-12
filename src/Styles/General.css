@@ -40,16 +40,19 @@
 
   hr {
     border-top: 0.1vw solid #1e1c1c;
+
   }
 
   h1{
     margin:0;
-    font-size: q0vw;
     font-family: 'Archivo';
     text-align: left;
     padding-top:15vw;
   }
 
+  h2{
+    font-weight:'bold';
+  }
   .title{
     margin:0;
     font-size: 5vw;
@@ -61,7 +64,7 @@
 
   h3{
     font-family: 'Archivo Black';
-    font-size: 1.6vw;
+    font-size: 2.6vw;
     margin-bottom: 0;
   }
 
@@ -113,4 +116,9 @@
     background-color: #1e1c1c;
     color:#e5e2de;
     margin:0;
+  }
+
+  p{
+    font-family: 'Archivo';
+    font-size: 1.6vw;
   }

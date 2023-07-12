@@ -103,23 +103,43 @@ function Visit() {
             <div className='col-9'>
                 <img className='museum-map-img' src={require('../Images/placeholder.jpg')} alt='Sample Image' />
             </div>
-   
-            <div className ="col-2">
-                <h3>HOURS</h3>
-                <h4>Monday - Saturday</h4>
-                <p>10:00am - 7:00pm</p>
-                <br></br>
-                <h4>Sunday</h4>
-                <p>10:00am - 5:00pm</p>
-            </div>
-            <div className = "col-1 add-padding">
-                <h3>LOCATION</h3>
-                <p>123, First Street,<br></br>Ottawa, ON,<br></br>Postal Code</p>
-            </div>
         </div>
-    <br></br><br></br><br></br>
+    <br></br><br></br>
 
-        <h4>FAQ</h4>
+    <h3>HOURS</h3>
+    <div className='row'>
+        <div className='col-6'>
+        <h4>Monday-Saturday</h4>
+        <p>10:00am - 7:00pm</p>
+        </div>
+        <div className='col-6'>
+            <h4>Sunday</h4>
+            <p>10:00am - 5:00pm</p>
+        </div>
+    </div>
+
+    <br></br><br></br>
+       
+            <h3>LOCATION</h3>
+
+            <iframe
+                className='map'
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11201.268967772161!2d-75.69341117575509!3d45.423105939095954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce050a6db98d73%3A0x188a59c3622fdbae!2sUniversity%20of%20Ottawa!5e0!3m2!1sen!2sca!4v1689018239210!5m2!1sen!2sca"
+                width="600"
+                height="450"
+                style={{
+                    border: '0',
+                    allowfullscreen: '',
+                    loading: 'lazy',
+                    referrerpolicy: 'no-referrer-when-downgrade'
+                }}
+                ></iframe>
+
+
+            <p>123, First Street,<br></br>Ottawa, ON,<br></br>Postal Code</p>
+       
+            <br></br>       
+        <h3>FAQ</h3>
         <FAQDropdown 
             question ="+  Can tickets be purchased in person?"
             answer ="Yes, tickets can be purchased at the ticket booths which are located in the front entrance. We do suggest purchasing tickets online, in advance, as we cannot guarantee ticket availability when tickets are purchased the day of, in person."

@@ -11,6 +11,7 @@ import About from './Components/About'
 import Donate from './Components/Donate'
 import Tickets from './Components/Tickets'
 import Contact from './Components/Contact'
+import Events from './Components/Events'
 
 function App() {
   return ( 
@@ -24,6 +25,7 @@ function App() {
       <Route path = '/donate' element ={<Donate />} />
       <Route path = '/tickets' element ={<Tickets />}/>
       <Route path = '/contact' element ={<Contact />}/>
+      <Route path = '/events' element ={<Events />}/>
     </Routes>
 
   );
