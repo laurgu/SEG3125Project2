@@ -1,5 +1,8 @@
-.photographer {
-    width: 40vw;
-    height: 40vw;
+.photographer-icon {
+    width: 13vw;
+    height: 13vw;
   }
   
+  .add-margintop-contact{
+    margin-top: 10vw;
+  }

@@ -122,3 +122,19 @@
     font-family: 'Archivo';
     font-size: 1.6vw;
   }
+
+  .inverse-page-setup{
+      margin:0;
+      color: #e5e2de;
+      background-color:#1e1c1c;
+      min-height: 100vh;
+  }
+
+  .collection-item{
+    margin-bottom: 2vw;
+  }
+
+  .filter-label{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+  }

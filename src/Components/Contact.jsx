@@ -12,14 +12,14 @@ function Contact() {
           <h1 className='title'>CONTACT</h1>
           <hr />
        
-          <img className='contact-icon' src={require('../Images/placeholder.jpg')} alt='Sample Image' />
-          <h4 className='inline'>(XXX)XXX-XXXX</h4>
+          <img className='contact-icon' src={require('../Images/Contact/phoneicon.png')} alt='Sample Image' />
+          <h4 className='inline'>(123)456-67890</h4>
          
-          <img className='contact-icon add-space' src={require('../Images/placeholder.jpg')} alt='Sample Image' />
-          <h4 className='inline'>email@mop.ca</h4>
+          <img className='contact-icon add-space' src={require('../Images/Contact/emailicon.png')} alt='Sample Image' />
+          <h4 className='inline'>museumofphoto@mop.ca</h4>
           <div>
             <br></br>
-            <h4 className='red'>If you have any questions, would like to get in touch with the museum, or have any suggestions,<br></br> please feel free to use the form below. We'd love to hear from you!</h4>
+            <p>If you have any questions, would like to get in touch with the museum, or have any suggestions,<br></br> please feel free to use the form below. We'd love to hear from you!</p>
             <br></br>
           </div>
 
@@ -39,7 +39,7 @@ function Contact() {
                 </div>
               </div>
               <div className='col-7' style={{ textAlign: 'right' }}>
-                <img className='contact-img' src={require('../Images/placeholder.jpg')} alt='Sample Image' />
+                <img className='contact-img' src={require('../Images/Contact/galleryimg.jpg')} alt='Sample Image' />
               </div>
             </div>
 
