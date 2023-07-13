@@ -37,6 +37,10 @@ function Collection() {
     { title: 'Quarrie\'s Men', date: '2017', artist: 'Nader Saadallah', image: require('../Images/Quarrie\'s-men/quarrie3.jpg') },
     { title: 'Quarrie\'s Men', date: '2017', artist: 'Nader Saadallah', image: require('../Images/Quarrie\'s-men/quarrie4.jpg') },
 
+    { title: 'Shaolin Kung Fu ', date: '2017', artist: 'Luo Pin Xi', image: require('../Images/Shaolin-Kung-Fu/martial-arts1.jpg') },
+    { title: 'Shaolin Kung Fu ', date: '2017', artist: 'Luo Pin Xi', image: require('../Images/Shaolin-Kung-Fu/martial-arts2.jpg') },
+    { title: 'Shaolin Kung Fu ', date: '2017', artist: 'Luo Pin Xi', image: require('../Images/Shaolin-Kung-Fu/martial-arts3.jpg') },
+    { title: 'Shaolin Kung Fu ', date: '2017', artist: 'Luo Pin Xi', image: require('../Images/Shaolin-Kung-Fu/martial-arts4.jpg') }
 
   
   ];

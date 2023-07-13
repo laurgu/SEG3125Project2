@@ -94,7 +94,7 @@ function About() {
               name="Leon Müller"
               position="Director of Community Engagement"
               pronouns='They/Them'
-              email="leonmullerN@mop.com"
+              email="leonmuller@mop.com"
               profilePicture= {Leon}
             />
         </div>
