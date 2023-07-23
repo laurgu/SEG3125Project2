@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SEG3125Project2/static/css/main.f4b1351a.css",
-    "main.js": "/SEG3125Project2/static/js/main.ca053529.js",
+    "main.css": "/SEG3125Project2/static/css/main.058729f9.css",
+    "main.js": "/SEG3125Project2/static/js/main.25fee635.js",
     "static/media/afrcia1.jpg": "/SEG3125Project2/static/media/afrcia1.e8895a48fe5aa4b1db80.jpg",
     "static/media/fireflies3.jpg": "/SEG3125Project2/static/media/fireflies3.20d5e35a5557f50e9ff2.jpg",
     "static/media/africa4.jpg": "/SEG3125Project2/static/media/africa4.992a06e29b297c55f12c.jpg",
@@ -53,11 +53,11 @@
     "static/media/Fatemeh.jpg": "/SEG3125Project2/static/media/Fatemeh.72b187b3ed4c84ad0281.jpg",
     "static/media/phoneicon.png": "/SEG3125Project2/static/media/phoneicon.91e9fcd599d3fab33de5.png",
     "index.html": "/SEG3125Project2/index.html",
-    "main.f4b1351a.css.map": "/SEG3125Project2/static/css/main.f4b1351a.css.map",
-    "main.ca053529.js.map": "/SEG3125Project2/static/js/main.ca053529.js.map"
+    "main.058729f9.css.map": "/SEG3125Project2/static/css/main.058729f9.css.map",
+    "main.25fee635.js.map": "/SEG3125Project2/static/js/main.25fee635.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b1351a.css",
-    "static/js/main.ca053529.js"
+    "static/css/main.058729f9.css",
+    "static/js/main.25fee635.js"
   ]
 }
